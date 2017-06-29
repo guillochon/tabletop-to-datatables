@@ -2,20 +2,20 @@
 
 //enter google sheets key here
 var key =
-  "https://docs.google.com/spreadsheets/d/113QZOTS9JQ1WGfwjwQrOpErUBJTAnaBmdjP0_OjA53c/pubhtml?gid=489792061&single=true";
+  "1eA7GZc5eWM6zo7Cb_86eHBZRFS1ZFleKKn3kBtYsHzc";
 
 //"data" refers to the column name with no spaces and no capitals
 //punctuation or numbers in your column name
 //"title" is the column name you want to appear in the published table
 var columns = [{
-  "data": "company",
-  "title": "Company"
+  "data": "ASCL ID",
+  "title": "ASCL ID"
 }, {
-  "data": "violations",
-  "title": "Claims"
+  "data": "Code name",
+  "title": "Code name"
 }, {
-  "data": "total-award",
-  "title": "Total Awarded"
+  "data": "Preferred citation info",
+  "title": "Preferred citation"
 }];
 
 $(document).ready(function() {
